@@ -1,0 +1,13 @@
+Name: Role Layer Rule
+AntiForgery: enabled
+Author: The Potts Consulting Group
+Website: http://www.pottsconsultinggroup.com
+Version: 1.0
+OrchardVersion: 1.0
+Description: Define a layer that is visible only to users in the specified roles. For examples, Role "Administrator" limits a layer to admins only.
+Features:
+    PCG.RoleLayer:
+        Name: Role Layer Rule
+        Description: Allows a layer to be visible only to users in the specified roles.
+        Dependencies: Orchard.Roles
+        Category: Layer rules
