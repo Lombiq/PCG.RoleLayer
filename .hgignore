@@ -1,2 +1,4 @@
-glob:obj/
-glob:PCG.RoleLayer.csproj.user
+syntax: glob
+obj/
+bin/
+*.user
